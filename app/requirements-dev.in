@@ -1,0 +1,5 @@
+# pip-compile .\requirements-dev.in
+# pip-sync requirements.txt requirements-dev.txt
+-c requirements.txt
+factory-boy
+django-debug-toolbar
